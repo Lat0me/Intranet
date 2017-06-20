@@ -1,0 +1,66 @@
+Test
+2017-06-12 11:41:44 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:57                         AuthLDAP::testLDAPConnection()
+2017-06-12 11:41:56 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 11:43:21 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 11:59:31 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 11:59:33 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 14:59:36 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 15:00:08 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 15:00:09 [2@intranet]
+  *** PHP Warning(2): ldap_bind(): Unable to bind to server: Invalid credentials
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:2220                        ldap_bind()
+  inc/authldap.class.php:1203                        AuthLDAP::connectToServer()
+  front/authldap.form.php:75                         AuthLDAP::testLDAPConnection()
+2017-06-12 15:08:20 [2@intranet]
+  *** PHP Warning(2): ldap_search(): Search: Invalid DN syntax
+  Backtrace :
+  :                                                  
+  inc/authldap.class.php:1381                        ldap_search()
+  inc/authldap.class.php:1507                        AuthLDAP::searchForUsers()
+  inc/authldap.class.php:1247                        AuthLDAP::getAllUsers()
+  inc/authldap.class.php:2943                        AuthLDAP::showLdapUsers()
+  front/ldap.import.php:72                           AuthLDAP::searchUser()
